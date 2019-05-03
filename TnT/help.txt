@@ -1,0 +1,9 @@
+The objective of T ‘n’ T is to get 3 Xs or 3 Os in a row where each X or O is
+actually a smaller tic tac toe game that has been won by the X player or the O player
+respectively. The first player may make his move in any square of any local board.
+The set of possible moves either player has on his turn from then on depends on the
+move made by the previous player, i.e, a move made in a square of a local board
+forces the other player to play in a square of a local board in the corresponding
+position of the global board. If a player is forced to play in a local board which is full,
+he may play in any square of his choice. Unlike in Ultimate Tic Tac Toe, players may
+be forced to play in local boards which have already been won.
